@@ -63,6 +63,7 @@ body {
 .btn {
     padding-left: 3%;
     padding-right: 3%;
+    border-radius: 10%;
 
 }
 .arrow-section {
@@ -79,11 +80,92 @@ body {
   align-items: center;
   font-size: 1.7rem;
   padding-top: 10%;
+  max-width: 80%;
 }
 .quote2 {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.7rem;
-  padding-top: 20%;
+  padding-top: 10%;
+  max-width: 80%;
+}
+.quote3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  padding-top: 10%;
+  max-width: 80%;
+}
+.secondary-image {
+  width: 100%;
+}
+.third-image {
+  width: 80%;
+}
+.generate-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+	pointer-events: auto;
+	cursor: pointer;
+	background: #e7e7e7;
+	border: none;
+	padding: 1.5rem 3rem;
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	position: relative;
+	display: inline-block;
+}
+.button::before,
+.button::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.button--pandoras {
+	background: #28479c;
+	font-weight: 700;
+	padding: 0;
+	border-radius: 5px;
+}
+.button--pandoras span {
+	display: block;
+  color: white;
+  font-size: 1.5rem;
+	background: #28479c;
+	padding: 1rem 3rem;
+	border: 1px solid #28479c;
+	border-radius: 5px;
+	transform: translate3d(-4px, -4px, 0);
+	transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+}
+.button--pandoras:hover span {
+	transform: translate3d(-8px, -8px, 0);
+}
+.button--pandora {
+	background: #28479c;
+	font-weight: 700;
+	padding: 0;
+	border-radius: 5px;
+}
+.button--pandora span {
+	display: block;
+  color: white;
+  font-size: 1.5rem;
+	background: #28479c;
+	padding: 1rem 3rem;
+	border: 1px solid #28479c;
+	border-radius: 5px;
+	transform: translate3d(-4px, -4px, 0);
+	transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+}
+.button--pandora:hover span {
+	transform: translate3d(-8px, -8px, 0);
 }
