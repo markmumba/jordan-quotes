@@ -1,4 +1,6 @@
 
+
+AOS.init();
 let image = document.querySelector('.generated-image');
 let quote = document.querySelector('.quote3');
 let generate_button = document.querySelector('.button--pandora');
@@ -19,7 +21,7 @@ let quotes_arr = ['The  fool precedes the master',
 
 generate_button.addEventListener('click', function (e) {
     e.preventDefault();
-    let picked_quote = `<p> ${random_quote()} </p>`;
+    let picked_quote = `<p  data-aos="zoom-in-right" data-aos-duration="400" data-aos-easing="ease-in-sine"> ${random_quote()} </p>`;
     quote.innerHTML = picked_quote;
 
 
